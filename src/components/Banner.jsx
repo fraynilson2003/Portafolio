@@ -34,7 +34,7 @@ const Banner = () => {
           initial="hidden" 
           whileInView={"show"} 
           viewport={{once: false, amount:0.7}} 
-          className="mb-8 text-[32px] lg:text-[50px] font-secondary font-semibold uppercase text-center leading-[1] lg:text-left"> 
+          className="mb-5 text-[32px] lg:text-[50px] font-secondary font-semibold uppercase text-center leading-[1] lg:text-left"> 
             <h2 className="text-white mr-2 ">Desarrollador </h2>
             <TypeAnimation sequence={[
               "front-end",
@@ -46,7 +46,7 @@ const Banner = () => {
             ]}
             speed={50}
             className="text-accent"
-            wrapper='span'
+            wrapper='div'
             repeat={Infinity}
             />
           </motion.div>
@@ -56,8 +56,8 @@ const Banner = () => {
           initial="hidden" 
           whileInView={"show"} 
           viewport={{once: false, amount:0.7}} 
-          className="mb-6 max-w-lg mx-auto text-justify lg:mx-0">
-          Lorem ipsum dolor, sit amet consectetur adipisicinga jogo ascao kacllq lokiac lakaso icta?
+          className="mb-4 max-w-lg mx-auto text-justify lg:mx-0">
+            Soy un programador a quien la fascina crear soluciones innovadoras y eficientes, ademas siempre estoy dispuesto a aprender y a compartir conocimientos con mis colegas para mejorar nuestro trabajo en equipo.
           </motion.p>
 
           <motion.div 
@@ -66,7 +66,7 @@ const Banner = () => {
           whileInView={"show"} 
           viewport={{once: false, amount:0.7}} 
 
-          className="flex max-w-max gap-x-6 items-center mb-6 mx-auto lg:mx-0">
+          className="flex max-w-max gap-x-6 items-center mb-4 mx-auto lg:mx-0">
             <button className="btn btn-lg">Contactame</button>
             <a href="#" className="text-gradient btn-link">Mi portafolio</a>
           </motion.div>   
@@ -79,10 +79,10 @@ const Banner = () => {
           whileInView={"show"} 
           viewport={{once: false, amount:0.7}} 
           className="flex text-[20px] gap-x-5 max-w-max mx-auto lg:mx-0">
-            <a className="cursor-pointer" href="https://www.linkedin.com/in/fray-desarrolador/" target="_blank">
+            <a className="cursor-pointer" href="https://www.linkedin.com/in/fray-desarrolador/" >
               <FaLinkedin />
             </a> 
-            <a href="https://github.com/fraynilson2003" target="_blank">
+            <a href="https://github.com/fraynilson2003">
               <FaGithub/>
             </a>  
             <a href="#">

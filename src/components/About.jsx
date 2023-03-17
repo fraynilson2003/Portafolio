@@ -21,7 +21,7 @@ const About = () => {
 
           {/*image */}
           <motion.div
-            variants={fadeIn("right", 0.25 )} 
+            variants={fadeIn("right", 0.1 )} 
             initial="hidden" 
             whileInView={"show"} 
             viewport={{once: false, amount:0.3}}  
@@ -30,7 +30,7 @@ const About = () => {
           
           {/*text */}
           <motion.div
-            variants={fadeIn("left", 0.3 )} 
+            variants={fadeIn("left", 0.15 )} 
             initial="hidden" 
             whileInView={"show"} 
             viewport={{once: false, amount:0.3}}  

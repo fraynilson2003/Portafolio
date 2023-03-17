@@ -18,7 +18,7 @@ const Work = () => {
       <div className="container mx-auto my-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <motion.div 
-            variants={fadeIn("right", 0.15 )} 
+            variants={fadeIn("right", 0.1 )} 
             initial="hidden" 
             whileInView={"show"} 
             viewport={{once: false, amount:0.2}}            
@@ -61,10 +61,10 @@ const Work = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn("left", 0.15 )} 
+            variants={fadeIn("left", 0.07 )} 
             initial="hidden" 
             whileInView={"show"} 
-            viewport={{once: false, amount:0.2}}   
+            viewport={{once: false, amount:0.18}}   
            className="flex-1 flex flex-col gap-y-8 justify-between"
            >
             {/* image */}

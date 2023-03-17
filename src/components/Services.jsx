@@ -34,10 +34,10 @@ const Services = () => {
 
           {/**texto */}
           <motion.div 
-            variants={fadeIn("right", 0.25 )} 
+            variants={fadeIn("right", 0.1)} 
             initial="hidden" 
             whileInView={"show"} 
-            viewport={{once: false, amount:0.3}}            
+            viewport={{once: false, amount:0.2}}            
             className="flex-1 lg:bg-services lg:bg-botttom bg-no-repeat bg mix-blend-lighten bg-center mb-10 lg:mb-0"
           >
             <h2 className="h2 to-accent mb-6 ">¿Que necesitas?</h2>
@@ -48,10 +48,10 @@ const Services = () => {
 
           {/**services */}
           <motion.div
-            variants={fadeIn("left", 0.3 )} 
+            variants={fadeIn("left", 0.15 )} 
             initial="hidden" 
             whileInView={"show"} 
-            viewport={{once: false, amount:0.3}}
+            viewport={{once: false, amount:0.2}}
           >
             {/**list services */}
             <div>

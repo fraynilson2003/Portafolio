@@ -59,7 +59,7 @@ const Services = () => {
               {services?.length && services.map((se, ind)=>
                 <div className="border-b border-white/20 h-[146px] h-auto mb-[34px] flex" key={ind}>
 
-                  <div className="max-w-[455px]">
+                  <div className="flex flex-col flex-1 max-w-max mx-[5px] lg:max-w-[455px] ">
 
                     <div className="flex flex-row justify-between">
                       <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-5">{se.name}</h4>
